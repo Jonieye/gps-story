@@ -1,0 +1,11 @@
+package com.joni.android.first;
+
+import android.content.BroadcastReceiver;
+
+public class AlarmReceiver extends BroadcastReceiver
+{
+	@Override
+	public void onReceive(Context context, Intent intent) {
+		
+	}
+}

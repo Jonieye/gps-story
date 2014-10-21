@@ -1,0 +1,51 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/TableLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.85"
+        android:text="TextView" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center" >
+
+        <Button
+            android:id="@+id/showLocation"
+            style="@style/AppTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="78dp"
+            android:text="Show Location" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/startLocation"
+                android:layout_width="134dp"
+                android:layout_height="79dp"
+                android:minWidth="50dip"
+                android:text="Start Tracking" />
+
+            <Button
+                android:id="@+id/stopLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Stop Tracking" />
+        </LinearLayout>
+    </LinearLayout>
+
+</TableLayout>
