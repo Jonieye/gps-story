@@ -1,0 +1,16 @@
+GPS Choice based story app - targeted at LARPers/storywriters
+Base Ideas
+- GPS for pages
+- Choices to continue
+- Audio
+- Text
+- story creation website - marker based location selection
+- upload/download stories (store)
+- Fantasy styled-layout
+
+
+Future Feature Ideas
+- Ads
+- Class/character details
+- Local party/GM controlled story
+- Near device combat (determines outcome)
